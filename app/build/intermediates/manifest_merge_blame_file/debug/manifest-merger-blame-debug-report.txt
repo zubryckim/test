@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zebra.basicintent1"
+4    android:versionCode="2"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:5:5-75
+11-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:5:22-72
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:9:5-29:19
+16        android:allowBackup="true"
+16-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+17-->[com.android.support:support-compat:28.0.0] C:\Users\m.zubrycki\.gradle\caches\transforms-2\files-2.1\4b98cb9ef154f1cc96b2c4521c58c038\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:14:9-35
+23        android:theme="@style/AppTheme" >
+23-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:15:9-40
+24        <activity android:name="com.zebra.basicintent1.PermisionActivity" />
+24-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:16:9-64
+24-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:16:19-52
+25        <activity
+25-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:17:9-18:53
+26            android:name="com.zebra.basicintent1.UpdateActivity"
+26-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:17:19-49
+27            android:launchMode="singleInstance" />
+27-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:18:13-50
+28        <activity
+28-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:19:9-20:53
+29            android:name="com.zebra.basicintent1.Locals2Activity"
+29-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:19:19-50
+30            android:launchMode="singleInstance" />
+30-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:20:13-50
+31        <activity
+31-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:21:9-28:20
+32            android:name="com.zebra.basicintent1.MainActivity"
+32-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:22:13-41
+33            android:launchMode="singleInstance" >
+33-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:23:13-50
+34            <intent-filter>
+34-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:24:13-27:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:25:17-69
+35-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:26:17-77
+37-->C:\m.zubrycki\BasicIntent1\app\src\main\AndroidManifest.xml:26:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\m.zubrycki\.gradle\caches\transforms-2\files-2.1\2adeeed158d7b4a19837e0030e3b7c30\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+42            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+42-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\m.zubrycki\.gradle\caches\transforms-2\files-2.1\2adeeed158d7b4a19837e0030e3b7c30\extensions-1.1.1\AndroidManifest.xml:24:13-83
+43            android:authorities="com.zebra.basicintent1.lifecycle-trojan"
+43-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\m.zubrycki\.gradle\caches\transforms-2\files-2.1\2adeeed158d7b4a19837e0030e3b7c30\extensions-1.1.1\AndroidManifest.xml:25:13-68
+44            android:exported="false"
+44-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\m.zubrycki\.gradle\caches\transforms-2\files-2.1\2adeeed158d7b4a19837e0030e3b7c30\extensions-1.1.1\AndroidManifest.xml:26:13-37
+45            android:multiprocess="true" />
+45-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\m.zubrycki\.gradle\caches\transforms-2\files-2.1\2adeeed158d7b4a19837e0030e3b7c30\extensions-1.1.1\AndroidManifest.xml:27:13-40
+46    </application>
+47
+48</manifest>

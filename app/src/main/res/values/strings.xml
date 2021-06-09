@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Skaner ZTM</string>
+    <string name="activity_intent_filter_action">com.dwbasicintent1.ACTION</string>
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+    <string name="lokal">Pole spisowe:</string>
+    <string name="waiting_for_scan">Ustaw pole spisowe...</string>
+    <string name="Send">Wyślij wyniki</string>
+    <string name="getIngredient">Pobierz/aktualizuj bazę</string>
+    <string name="SetLocation">Ustaw pole spisowe</string>
+    <string name="delFile">Usuń plik</string>
+    <string name="uwaga">uwaga</string>
+    <string name="action_settings">Settings</string>
+</resources>

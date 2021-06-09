@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/SetLocation"
+    android:title="@string/SetLocation"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Send"
+        android:title="@string/Send"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/zaawansowane"
+        android:title="Zaawansowane"
+        app:showAsAction="never">
+       <menu>
+            <item
+                android:id="@+id/getIngredient"
+                android:title="@string/getIngredient"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <!--<item
+        android:id="@+id/delFile"
+        android:actionLayout="@android:layout/activity_list_item"
+        android:title="@string/delFile"
+        app:showAsAction="never" />
+    -->
+</menu>

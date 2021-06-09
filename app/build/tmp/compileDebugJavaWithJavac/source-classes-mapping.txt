@@ -1,0 +1,36 @@
+com/zebra/basicintent1/Ingredient.java
+ com.zebra.basicintent1.Ingredient
+com/zebra/basicintent1/Inventory.java
+ com.zebra.basicintent1.Inventory
+com/zebra/basicintent1/DbHelper.java
+ com.zebra.basicintent1.DbHelper
+com/zebra/basicintent1/BuildConfig.java
+ com.zebra.basicintent1.BuildConfig
+com/zebra/basicintent1/Globals.java
+ com.zebra.basicintent1.Globals
+com/zebra/basicintent1/PermisionActivity.java
+ com.zebra.basicintent1.PermisionActivity
+com/zebra/basicintent1/UpdateActivity.java
+ com.zebra.basicintent1.UpdateActivity
+ com.zebra.basicintent1.UpdateActivity$GetIngredientList
+ com.zebra.basicintent1.UpdateActivity$GetLocation
+ com.zebra.basicintent1.UpdateActivity$SaveListToLocalDatabase
+ com.zebra.basicintent1.UpdateActivity$SaveLocationsToLocalDatabase
+com/zebra/basicintent1/Locals2Activity.java
+ com.zebra.basicintent1.Locals2Activity
+ com.zebra.basicintent1.Locals2Activity$1
+ com.zebra.basicintent1.Locals2Activity$2
+ com.zebra.basicintent1.Locals2Activity$3
+com/zebra/basicintent1/modal_info.java
+ com.zebra.basicintent1.modal_info
+ com.zebra.basicintent1.modal_info$1
+ com.zebra.basicintent1.modal_info$BottomSheetListener
+com/zebra/basicintent1/WebService.java
+ com.zebra.basicintent1.WebService
+com/zebra/basicintent1/MainActivity.java
+ com.zebra.basicintent1.MainActivity
+ com.zebra.basicintent1.MainActivity$1
+ com.zebra.basicintent1.MainActivity$2
+ com.zebra.basicintent1.MainActivity$GetCurrentVersion
+ com.zebra.basicintent1.MainActivity$GetMobileName
+ com.zebra.basicintent1.MainActivity$sendFileToWebService
